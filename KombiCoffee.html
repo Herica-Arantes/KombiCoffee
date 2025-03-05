@@ -1,120 +1,125 @@
-<!doctype html>
-<html lang="pt-br">
-<head>
-    <title>Kombi Coffee</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Verdana:wght@400;700&display=swap" rel="stylesheet">
+<!doctype html> <!-- Declaração do tipo de documento, informando que é HTML5 -->
+<html lang="pt-br"> <!-- Início do documento HTML, especificando que o conteúdo está em português (Brasil) -->
+
+<head> <!-- Início da seção de cabeçalho do documento -->
+    <title>Kombi Coffee</title> <!-- Título da página exibido na aba do navegador -->
+    <meta charset="utf-8"> <!-- Define o conjunto de caracteres utilizado, permitindo caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna a página responsiva, ajustando-se a diferentes larguras de dispositivos -->
+    <link href="https://fonts.googleapis.com/css2?family=Verdana:wght@400;700&display=swap" rel="stylesheet"> <!-- Link para o Google Fonts, importando a fonte Verdana -->
     
-    <style>
+    <style> <!-- Início da seção de estilos internos (CSS) -->
         body {
-            background-color: #FBE8D3;
-            font-family: Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
+            background-color: #FBE8D3; /* Define a cor de fundo da página */
+            font-family: Verdana, sans-serif; /* Define a fonte do texto como Verdana */
+            margin: 0; /* Remove a margem padrão do navegador */
+            padding: 0; /* Remove o padding (recuo) padrão do navegador */
         }
         
         header {
-            text-align: left; /* Alinha o header à esquerda */
-            padding: 20px 0;
+            text-align: left; /* Alinha o conteúdo do header (cabeçalho) à esquerda */
+            padding: 20px 0; /* Define o espaçamento interno (padding) do header */
         }
 
         header img {
-            width: 120px;
+            width: 120px; /* Define a largura da imagem do logo */
         }
 
         nav {
-            text-align: left; /* Alinha o nav à esquerda */
-            font-size: 14px;
-            margin-bottom: 20px;
+            text-align: left; /* Alinha o conteúdo do menu à esquerda */
+            font-size: 14px; /* Define o tamanho da fonte do menu */
+            margin-bottom: 20px; /* Adiciona um espaçamento inferior no menu */
         }
         
         .menuitem {
-            display: inline;
-            padding: 0 10px;
-            font-weight: bold;
+            display: inline; /* Faz com que os itens do menu apareçam lado a lado */
+            padding: 0 10px; /* Adiciona espaçamento entre os itens do menu */
+            font-weight: bold; /* Deixa o texto em negrito */
         }
         
         .menuitem a {
-            text-decoration: none;
-            color: #5A3825;
+            text-decoration: none; /* Remove o sublinhado do link */
+            color: #5A3825; /* Define a cor do texto do link */
         }
 
         h1 {
-            color: #5A3825;
-            font-size: 24px;
-            font-weight: bold;
-            text-align: left;
-            margin: 0 20px 25px; /* Aumentei o espaçamento entre o título e o próximo elemento */
+            color: #5A3825; /* Define a cor do título principal */
+            font-size: 24px; /* Define o tamanho da fonte do título principal */
+            font-weight: bold; /* Deixa o texto em negrito */
+            text-align: left; /* Alinha o título à esquerda */
+            margin: 0 20px 25px; /* Adiciona margens (esquerda, direita, e inferior) ao redor do título */
         }
         
         h2 {
-            color: #8B5A2B;
-            font-size: 18px;
-            font-weight: bold;
-            text-align: left;
-            margin: 30px 20px 15px; /* Aumentei o espaçamento inferior */
+            color: #8B5A2B; /* Define a cor do título secundário */
+            font-size: 18px; /* Define o tamanho da fonte do título secundário */
+            font-weight: bold; /* Deixa o texto em negrito */
+            text-align: left; /* Alinha o título à esquerda */
+            margin: 30px 20px 15px; /* Adiciona margens (superior, esquerda/direita, e inferior) ao redor do título */
         }
         
         h3 {
-            color: #5A3825;
-            font-size: 16px;
-            font-weight: bold;
-            text-align: left;
-            margin: 30px 20px 15px; /* Aumentei o espaçamento inferior */
+            color: #5A3825; /* Define a cor do título terciário */
+            font-size: 16px; /* Define o tamanho da fonte do título terciário */
+            font-weight: bold; /* Deixa o texto em negrito */
+            text-align: left; /* Alinha o título à esquerda */
+            margin: 30px 20px 15px; /* Adiciona margens (superior, esquerda/direita, e inferior) ao redor do título */
         }
         
         p {
-            text-align: left;
-            margin: 0 20px 15px;
-            color: #3A2F2F;
-            font-size: 14px;
+            text-align: left; /* Alinha o parágrafo à esquerda */
+            margin: 0 20px 15px; /* Adiciona margens (esquerda/direita e inferior) ao redor do parágrafo */
+            color: #3A2F2F; /* Define a cor do texto do parágrafo */
+            font-size: 14px; /* Define o tamanho da fonte do parágrafo */
         }
         
         main img {
-            width: 100%;
-            height: auto;
+            width: 100%; /* Faz com que a imagem ocupe toda a largura disponível */
+            height: auto; /* Ajusta automaticamente a altura da imagem, mantendo as proporções */
         }
         
         footer {
-            text-align: center;
-            margin-top: 30px;
-            padding: 10px;
-            border-top: 1px solid #5A3825;
-            font-size: 12px;
-            color: #5A3825;
+            text-align: center; /* Alinha o conteúdo do rodapé ao centro */
+            margin-top: 30px; /* Adiciona uma margem superior ao rodapé */
+            padding: 10px; /* Adiciona padding (espaçamento interno) ao rodapé */
+            border-top: 1px solid #5A3825; /* Adiciona uma borda superior */
+            font-size: 12px; /* Define o tamanho da fonte do rodapé */
+            color: #5A3825; /* Define a cor do texto do rodapé */
         }
-    </style>
+    </style> <!-- Fim da seção de estilos internos -->
             
-</head>    
-<body>    
-    <header>
-        <img src="logo_kombi_coffee.png" alt="Logo Kombi Coffee" title="Logo Kombi Coffee">
-    </header>
+</head> <!-- Fim da seção de cabeçalho -->
+
+<body> <!-- Início do corpo da página -->
+
+    <header> <!-- Início do cabeçalho -->
+        <img src="logo_kombi_coffee.png" alt="Logo Kombi Coffee" title="Logo Kombi Coffee"> <!-- Imagem do logo da Kombi Coffee -->
+    </header> <!-- Fim do cabeçalho -->
     
-    <nav>
-        <div class="menuitem"><a href="#">HOME</a> |</div>
-        <div class="menuitem"><a href="#">LOCAL</a> |</div>
-        <div class="menuitem"><a href="#">CARDÁPIO</a> |</div>
-        <div class="menuitem"><a href="#">EVENTOS</a> |</div>
-        <div class="menuitem"><a href="#">CONTATO</a></div>
-    </nav>
+    <nav> <!-- Início da seção de navegação (menu) -->
+        <div class="menuitem"><a href="#">HOME</a> |</div> <!-- Link para a página inicial -->
+        <div class="menuitem"><a href="#">LOCAL</a> |</div> <!-- Link para a seção de localizações -->
+        <div class="menuitem"><a href="#">CARDÁPIO</a> |</div> <!-- Link para o cardápio -->
+        <div class="menuitem"><a href="#">EVENTOS</a> |</div> <!-- Link para a seção de eventos -->
+        <div class="menuitem"><a href="#">CONTATO</a></div> <!-- Link para a seção de contato -->
+    </nav> <!-- Fim da navegação -->
                 
-    <main>
-        <h1>O café que chega até você</h1>
+    <main> <!-- Início do conteúdo principal -->
+        <h1>O café que chega até você</h1> <!-- Título principal da seção -->
         <div>
-            <img src="banner.jpg" alt="Imagem de uma xícara e grãos de café" title="Imagem de uma xícara de café quente e grãos de café">
+            <img src="banner.jpg" alt="Imagem de uma xícara e grãos de café" title="Imagem de uma xícara de café quente e grãos de café"> <!-- Imagem do banner -->
         </div>    
         
-        <h2>Escolha o seu café</h2>
-        <p>Hoje em dia, café bom não é só aquele feito no coador de pano que nossas avós faziam. Um novo mundo se abre para nós em matéria de tipos de grãos, procedência, tipos de torras e jeitos de preparar a bebida, que é tão popular na mesa dos brasileiros.</p>
+        <h2>Escolha o seu café</h2> <!-- Título secundário -->
+        <p>Hoje em dia, café bom não é só aquele feito no coador de pano que nossas avós faziam. Um novo mundo se abre para nós em matéria de tipos de grãos, procedência, tipos de torras e jeitos de preparar a bebida, que é tão popular na mesa dos brasileiros.</p> <!-- Parágrafo explicativo -->
         
-        <h3>Onde encontrar a loja</h3>
-        <p>O Kombi Coffee é móvel. <a href="https://www.google.com.br/maps" title="Link para Mapa" target="_blank">Veja onde</a> você pode encontrar a loja.</p>
-    </main>
+        <h3>Onde encontrar a loja</h3> <!-- Título terciário -->
+        <p>O Kombi Coffee é móvel. <a href="https://www.google.com.br/maps" title="Link para Mapa" target="_blank">Veja onde</a> você pode encontrar a loja.</p> <!-- Link para o Google Maps -->
+    </main> <!-- Fim do conteúdo principal -->
     
-    <footer>
-        <p>Copyright</p>
-    </footer>
-</body>    
-</html>
+    <footer> <!-- Início do rodapé -->
+        <p>Copyright</p> <!-- Texto do rodapé -->
+    </footer> <!-- Fim do rodapé -->
+</body> <!-- Fim do corpo da página -->
+
+</html> <!-- Fim do documento HTML -->
+
